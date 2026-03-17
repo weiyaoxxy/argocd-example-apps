@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-        - image: nginx:alpine
+        - image: m.daocloud.io/docker.io/library/nginx:alpine
           name: guestbook-ui
           ports:
             - containerPort: 80
